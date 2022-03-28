@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  height: 100vh;
+  border: 2px solid black;
+  background-color: antiquewhite;
+}
+
+/* event object */
+
+.event-div {
+  height: 200px;
+  background-color: pink;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* insertAdjacentHTML */
+
+.add-card {
+  margin: 10px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+}
+
+.new-content-container {
+  margin: 10px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.new-content-container div {
+  background-color: cadetblue;
+  width: 100px;
+  width: 100px;
+}
+
+/* event delegation section */
+.outer {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
+  padding: 10px;
+  background-color: aliceblue;
+}
+
+.inner {
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+}
+
+.inner p {
+  color: chocolate;
+}
